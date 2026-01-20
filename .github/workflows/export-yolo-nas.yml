@@ -28,7 +28,7 @@ jobs:
       - name: Install deps
         run: |
           python -m pip install --upgrade pip
-          pip install super_gradients==3.7.1 torch onnx onnxsim
+          pip install super_gradients==3.7.1 torch onnx onnxsim onnxscript
 
       - name: Patch super_gradients weight host
         run: |
